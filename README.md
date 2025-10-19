@@ -131,14 +131,6 @@ Enabled visual dashboards for tracking key workforce metrics.
 
 Improved understanding of attrition dynamics, leading to proactive interventions.
 
-# How to Run Locally
-# Clone this repository
-git clone https://github.com/<your-username>/Health-Quest-Medicals-Employee-Data.git
-cd Health-Quest-Medicals-Employee-Data
-
-# Install dependencies
-pip install -r requirements.txt
-
 # Open Jupyter Notebook
 jupyter notebook
 
@@ -148,20 +140,35 @@ Then open the main notebook file:
 HealthQuest_Employee_Analytics.ipynb
 
 📁 Folder Structure
+
 Health-Quest-Medicals-Employee-Data/
+
 │
+
 ├── data/
+
 │   └── health_quest_employee.csv
+
 │
+
 ├── notebooks/
+
 │   ├── EDA.ipynb
+
 │   ├── Visualization.ipynb
+
 │
+
 ├── visuals/
+
 │   ├── attrition_rate.png
+
 │   ├── income_distribution.png
+
 │
+
 ├── README.md
+
 └── requirements.txt
 
 
